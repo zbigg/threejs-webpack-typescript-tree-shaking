@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "es2015",
+        "moduleResolution": "node",
+        "target": "es2015",
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "rootDir": ".",
+        "outDir": "./dist/node_modules/",
+        "jsx": "react",
+        "jsxFactory": "React.createElement",
+        "strict": true,
+        "downlevelIteration": true,
+        "newLine": "LF",
+        "noImplicitReturns": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
